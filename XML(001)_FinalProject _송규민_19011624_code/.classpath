@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/GyuMin/OneDrive/SJU/2021-2/XMLProgramming/Xerces-J-bin.2.12.0/xerces-2_12_0/resolver.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GyuMin/OneDrive/SJU/2021-2/XMLProgramming/Xerces-J-bin.2.12.0/xerces-2_12_0/serializer.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GyuMin/OneDrive/SJU/2021-2/XMLProgramming/Xerces-J-bin.2.12.0/xerces-2_12_0/xercesImpl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GyuMin/OneDrive/SJU/2021-2/XMLProgramming/Xerces-J-bin.2.12.0/xerces-2_12_0/xercesSamples.jar"/>
+	<classpathentry kind="lib" path="C:/Users/GyuMin/OneDrive/SJU/2021-2/XMLProgramming/Xerces-J-bin.2.12.0/xerces-2_12_0/xml-apis.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

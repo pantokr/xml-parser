@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 1 -->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <!-- <xsd:include schemaLocation="XML001_MiniProject4_SongGyuMin_19011624-2.xsd" /> -->
+
+    <xsd:element name="epl">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element ref="body"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="body">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="h2" type="xsd:string"/>
+                <xsd:element name="p" type="xsd:string" />
+                <xsd:element ref="a" minOccurs="0"/>
+                <xsd:element ref="picture" maxOccurs="1"/>
+                <xsd:element ref="list" />
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="a">
+        <xsd:complexType>
+            <xsd:attribute name="href" use="required" type="xsd:string" />
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="picture">
+        <xsd:complexType>
+            <xsd:simpleContent>
+                <xsd:extension base="xsd:string">
+                    <xsd:attribute name="src" default="./hms.jpg" type="xsd:string" />
+                    <xsd:attribute name="width" use="required" type="xsd:string" />
+                    <xsd:attribute name="height" use="required" type="xsd:string" />
+                    <xsd:attribute name="alt" use="optional" type="xsd:string" />
+                </xsd:extension>
+            </xsd:simpleContent>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="list">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="caption" type="xsd:string" minOccurs="0"/>
+                <xsd:element ref="player" maxOccurs="15"/>
+            </xsd:sequence>
+            <xsd:attribute name="border" use="required" type="xsd:int" />
+            <xsd:attribute name="width" use="required" type="xsd:int" />
+            <xsd:attribute name="height" use="required" type="xsd:int" />
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="player">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="name" type="xsd:string"/>
+                <xsd:element name="club" type="xsd:string"/>
+                <xsd:element name="position" type="xsd:string"/>
+                <xsd:element name="age" type="xsd:int"/>
+                <xsd:element name="height" type="xsd:float"/>
+                <xsd:element name="weight" type="xsd:int"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</xsd:schema> 

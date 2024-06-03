@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XML001_MiniProject4_SongGyuMin_19011624-1.xsd">
+    <body>
+        <oldElement isTest="true">newText</oldElement>
+        <p>EPL Players' Status</p>
+        <picture height="100" src="./hms.jpg" width="100">H. Son</picture>
+        <list border="1" height="150" width="300">
+            <caption> EPL Player List </caption>
+
+            <player>
+                <name> A. Pereira </name>
+                <club> Man Utd </club>
+                <position> CAM </position>
+                <age>23</age>
+                <height>1.78</height>
+                <weight>73</weight>
+            </player>
+            <player>
+                <name> David Silva </name>
+                <club> Man City </club>
+                <position> CAM </position>
+                <age>33</age>
+                <height>1.70</height>
+                <weight>67</weight>
+            </player>
+            <player>
+                <name> Ederson </name>
+                <club> Man City </club>
+                <position> GK </position>
+                <age>26</age>
+                <height>1.88</height>
+                <weight>86</weight>
+            </player>
+            <player>
+                <name> R. Holding </name>
+                <club> Arsenal </club>
+                <position> CB </position>
+                <age>24</age>
+                <height>1.89</height>
+                <weight>75</weight>
+            </player>
+            <player>
+                <name> K. Walker </name>
+                <club> Spurs </club>
+                <position> CB </position>
+                <age>22</age>
+                <height>1.73</height>
+                <weight>64</weight>
+            </player>
+            <player>
+                <name> R. Sterling </name>
+                <club> Man City </club>
+                <position> LW </position>
+                <age>24</age>
+                <height>1.70</height>
+                <weight>69</weight>
+            </player>
+            <player>
+                <name> O. Giroud </name>
+                <club> Chelsea </club>
+                <position> ST </position>
+                <age>33</age>
+                <height>1.93</height>
+                <weight>92</weight>
+            </player>
+            <player>
+                <name> V. van Dijk </name>
+                <club> Liverpool </club>
+                <position> CB </position>
+                <age>28</age>
+                <height>1.93</height>
+                <weight>92</weight>
+            </player>
+            <player>
+                <name> P. Pogba </name>
+                <club> Man Utd </club>
+                <position> CM </position>
+                <age>26</age>
+                <height>1.91</height>
+                <weight>84</weight>
+            </player>
+            <player>
+                <name> Alisson </name>
+                <club> Liverpool </club>
+                <position> GK </position>
+                <age>27</age>
+                <height>1.91</height>
+                <weight>91</weight>
+            </player>
+            <player>
+                <name> H. Son </name>
+                <club> Spurs </club>
+                <position> LW </position>
+                <age>27</age>
+                <height>1.84</height>
+                <weight>78</weight>
+            </player>
+            <player>
+                <name> X. Shaqiri </name>
+                <club> Liverpool </club>
+                <position> RW </position>
+                <age>28</age>
+                <height>1.69</height>
+                <weight>72</weight>
+            </player>
+            <player>
+                <name> Fabinho </name>
+                <club> Liverpool </club>
+                <position> CDM </position>
+                <age>26</age>
+                <height>1.88</height>
+                <weight>78</weight>
+            </player>
+            <player>
+                <name> A. Young </name>
+                <club> Man Utd </club>
+                <position> LB </position>
+                <age>34</age>
+                <height>1.76</height>
+                <weight>65</weight>
+            </player>
+            <player>
+                <name> T. Alexander Arnold </name>
+                <club> Liverpool </club>
+                <position> RB </position>
+                <age>21</age>
+                <height>1.80</height>
+                <weight>69</weight>
+            </player>
+        </list>
+    </body>
+</epl>

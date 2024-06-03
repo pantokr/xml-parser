@@ -1,0 +1,29 @@
+<!ENTITY % playerset "(name, club, position, age, height, weight)">
+<!ELEMENT epl (body+)>
+<!ELEMENT body (h2?, p, a*, picture?, list)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT h2 (#PCDATA)>
+<!ENTITY information "Song's">
+<!ELEMENT a (#PCDATA)>
+<!ATTLIST a href CDATA #REQUIRED>
+<!ELEMENT picture (#PCDATA)>
+<!ATTLIST picture
+    src CDATA "./hms.jpg"
+    width CDATA #REQUIRED
+    height CDATA #REQUIRED
+    alt CDATA #IMPLIED
+>
+<!ELEMENT list ((caption, player+)|player+)>
+<!ATTLIST list
+    border CDATA #REQUIRED
+    width CDATA #REQUIRED
+    height CDATA #REQUIRED
+>
+<!ELEMENT caption (#PCDATA)>
+<!ELEMENT player %playerset;>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT club (#PCDATA)>
+<!ELEMENT position (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT height (#PCDATA)>
+<!ELEMENT weight (#PCDATA)>
